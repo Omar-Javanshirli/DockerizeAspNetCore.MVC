@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "ImageSave";
+}
+
+<h1>ImageSave</h1>
+
+<form asp-action="ImageSave" asp-controller="Home" enctype="multipart/form-data">
+    <input type="file" name="imageFile" />
+    <button type="submit">Resim kaydet</button>
+</form>
